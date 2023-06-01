@@ -5,17 +5,17 @@ function Home() {
   return (
       <Fragment>
         <div>Đây là trang home</div>
-        <div>
-        <nav>
-          <li>
-            <Link to="/todo">TodoList</Link>
-          </li>
-          <li>
-            <Link to="/create">CreateTodo</Link>
-          </li>
-        </nav>
-      </div>
-        <Outlet/>
+      {/*  <div>*/}
+      {/*  <nav>*/}
+      {/*    <li>*/}
+      {/*      <Link to="/todo">TodoList</Link>*/}
+      {/*    </li>*/}
+      {/*    <li>*/}
+      {/*      <Link to="/create">CreateTodo</Link>*/}
+      {/*    </li>*/}
+      {/*  </nav>*/}
+      {/*</div>*/}
+        {/*<Outlet/>*/}
       </Fragment>
   )
 }
